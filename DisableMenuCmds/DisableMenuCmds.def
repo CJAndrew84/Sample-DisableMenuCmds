@@ -1,0 +1,15 @@
+; DisableMenuCmds.def : Declares the module parameters for the DLL.
+
+LIBRARY
+
+EXPORTS
+    ; Explicit exports can go here
+
+	; state function
+	MenuCmd_DisableMenuItemState
+
+	; menu item functions
+	DocCmd_DisableMenuItem
+	DocSendToCmd_DisableMenuItem
+	PrjCmd_DisableMenuItem
+	GenToolsCmd_DisableMenuItem
